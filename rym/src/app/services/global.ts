@@ -11,8 +11,8 @@ export const NAME_PARAMETER = 'name=';
 export const SPECIES_PARAMETER = 'species=';
 export const LOCATION_PARAMETER = 'location_name=';
 
-export const CHARACTER_URL_FILTERS = 'http://16.171.193.109/api/character/?';
-export const LOCATION_URL_FILTERS = 'http://16.171.193.109/api/location/?';
-export const CHARACTER_URL = 'http://16.171.193.109/api/character/';
-export const LOCATION_URL = 'http://16.171.193.109/api/location/';
+export const CHARACTER_URL_FILTERS = 'https://16.171.193.109/api/character/?';
+export const LOCATION_URL_FILTERS = 'https://16.171.193.109/api/location/?';
+export const CHARACTER_URL = 'https://16.171.193.109/api/character/';
+export const LOCATION_URL = 'https://16.171.193.109/api/location/';
 
