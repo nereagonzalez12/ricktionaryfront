@@ -12,8 +12,8 @@ export const NAME_PARAMETER = 'name=';
 export const SPECIES_PARAMETER = 'species=';
 export const LOCATION_PARAMETER = 'location_name=';
 
-export const CHARACTER_URL_FILTERS = 'https://rickypedia.vercel.app/api/character/?';
-export const LOCATION_URL_FILTERS = 'https://rickypedia.vercel.app/api/location/?';
-export const CHARACTER_URL = 'https://rickypedia.vercel.app/api/character/';
-export const LOCATION_URL = 'https://rickypedia.vercel.app/api/location/';
+export const CHARACTER_URL_FILTERS = 'https://ricktionary.vercel.app/api/character/?';
+export const LOCATION_URL_FILTERS = 'https://ricktionary.vercel.app/api/location/?';
+export const CHARACTER_URL = 'https://ricktionary.vercel.app/api/character/';
+export const LOCATION_URL = 'https://ricktionary.vercel.app/api/location/';
 
