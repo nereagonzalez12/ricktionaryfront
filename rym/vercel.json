@@ -3,10 +3,6 @@
         {
             "source": "/api/:path*",
             "destination": "https://16.171.193.109/api/:path*"
-        },
-        {
-            "source": "/api/:path/",
-            "destination": "https://16.171.193.109/api/:path/"
         }
     ]
 }
