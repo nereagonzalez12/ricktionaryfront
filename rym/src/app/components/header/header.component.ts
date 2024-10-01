@@ -96,6 +96,7 @@ export class HeaderComponent {
   // Location filter
   locationFilter(location: ILocation) {
     this.sharedDataService.updateLocationData(location.name);
+    console.log(location);
   }
 
   // Idiom selector

@@ -123,7 +123,7 @@
         <div *ngFor="let character of characterList ">
             <!-- CARD -->
             <div class="rounded overflow-hidden shadow-md flex flex-col">
-                <div class="relative"><a (click)="obtainCharacterData(character.id)">
+                <div class="relative"><a (click)="obtainCharacterData(character.id)" (click)="scrollToTop()">
                         <img class="w-full" src="{{character.image}}" alt="{{character.name}}">
                         <div
                             class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-background-color opacity-25 cursor-pointer">
