@@ -2,9 +2,3 @@
 for = "/*"
 [headers.values]
   Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-
-[[redirects]]
-  from = "/api/*"
-  to = "https://16.171.193.109/api/:splat"
-  status = 200
-  force = true

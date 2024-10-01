@@ -1,1 +1,4 @@
-/api/* https://16.171.193.109/api/:splat 200
+/pkParaiso/*  https://www.pkparaiso.com/imagenes/:splat  200
+/projectPokemon/*  https://projectpokemon.org/images/:splat  200
+/pokeapi/*  https://pokeapi.co/api/v2/:splat  200
+/* /index.html  200
