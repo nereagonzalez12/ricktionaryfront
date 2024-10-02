@@ -11,6 +11,8 @@ export const PAGE_PARAMETER = 'page=';
 export const NAME_PARAMETER = 'name=';
 export const SPECIES_PARAMETER = 'species=';
 export const LOCATION_PARAMETER = 'location_name=';
+export const BACK_URL = 'https://16.171.193.109';
+export const FRONT_URL = 'https://ricktionary.vercel.app';
 
 export const CHARACTER_URL_FILTERS = 'https://ricktionary.vercel.app/api/character/?';
 export const LOCATION_URL_FILTERS = 'https://ricktionary.vercel.app/api/location/?';
