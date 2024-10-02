@@ -5,8 +5,8 @@
             "destination": "https://16.171.193.109/api/:path*/"
         },
         {
-            "source": "/media/locations/:path*",
-            "destination": "https://16.171.193.109/media/locations/:path*"
+            "source": "/media/locations/:path*/",
+            "destination": "https://16.171.193.109/media/locations/:path*/"
         }
     ]
 }
