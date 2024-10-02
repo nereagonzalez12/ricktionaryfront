@@ -3,7 +3,7 @@ import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 import { IGenericResponse } from 'src/app/models/genericResponse.model';
 import { ILocation } from 'src/app/models/location.model';
 import { ApiService } from 'src/app/services/api.service';
-import { DEFAULT_LOCATION_IMG } from 'src/app/services/global';
+import { BACK_URL, DEFAULT_LOCATION_IMG, FRONT_URL } from 'src/app/services/global';
 import { SharedDataService } from 'src/app/services/shared-data.service';
 
 @Component({
@@ -73,7 +73,7 @@ export class HeaderComponent {
               // default location image
               data.image = DEFAULT_LOCATION_IMG;
             } else {
-              // data.image = data.image.replace(BACK_URL, FRONT_URL);
+              data.image = data.image.replace(BACK_URL, FRONT_URL);
             }
 
             // Prevent duplicates elements in array
