@@ -74,6 +74,7 @@ export class HeaderComponent {
               data.image = DEFAULT_LOCATION_IMG;
             } else {
               data.image = data.image.replace(BACK_URL, FRONT_URL);
+              console.log(data.image);
             }
 
             // Prevent duplicates elements in array
